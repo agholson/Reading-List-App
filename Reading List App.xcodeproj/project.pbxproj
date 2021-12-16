@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		4126E79D2766E2FE003B18FD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4126E79C2766E2FE003B18FD /* GoogleService-Info.plist */; };
-		75113C35276AEE8200B248AF /* app_home.png in Resources */ = {isa = PBXBuildFile; fileRef = 75113C34276AEE8200B248AF /* app_home.png */; };
-		75113C37276AEF3000B248AF /* app_details.png in Resources */ = {isa = PBXBuildFile; fileRef = 75113C36276AEF3000B248AF /* app_details.png */; };
-		75113C39276BFFA200B248AF /* genre_page.png in Resources */ = {isa = PBXBuildFile; fileRef = 75113C38276BFFA200B248AF /* genre_page.png */; };
 		75113C3B276BFFE900B248AF /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 75113C3A276BFFE900B248AF /* .gitignore */; };
 		B01BB66FAD6A0B360117F215 /* Pods_Reading_List_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDE05C3F2185D31981A0FC38 /* Pods_Reading_List_App.framework */; };
 		C303870E2637BAA5008ED43A /* ReadingListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C303870D2637BAA5008ED43A /* ReadingListApp.swift */; };
@@ -30,9 +27,6 @@
 		4126E79C2766E2FE003B18FD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41EFBBBC2757193D005726CD /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		69F34FD4C7DB411F03FBF325 /* Pods-Reading List App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reading List App.debug.xcconfig"; path = "Target Support Files/Pods-Reading List App/Pods-Reading List App.debug.xcconfig"; sourceTree = "<group>"; };
-		75113C34276AEE8200B248AF /* app_home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_home.png; path = ../../../../../../Desktop/app_home.png; sourceTree = "<group>"; };
-		75113C36276AEF3000B248AF /* app_details.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = app_details.png; path = ../../../../../../Desktop/app_details.png; sourceTree = "<group>"; };
-		75113C38276BFFA200B248AF /* genre_page.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = genre_page.png; path = ../../../../../../Desktop/genre_page.png; sourceTree = "<group>"; };
 		75113C3A276BFFE900B248AF /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B9EDF311BB790D4BAEA2FADC /* Pods-Reading List App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reading List App.release.xcconfig"; path = "Target Support Files/Pods-Reading List App/Pods-Reading List App.release.xcconfig"; sourceTree = "<group>"; };
 		BDE05C3F2185D31981A0FC38 /* Pods_Reading_List_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reading_List_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,16 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		75113C33276AEDD100B248AF /* static */ = {
-			isa = PBXGroup;
-			children = (
-				75113C38276BFFA200B248AF /* genre_page.png */,
-				75113C34276AEE8200B248AF /* app_home.png */,
-				75113C36276AEF3000B248AF /* app_details.png */,
-			);
-			path = static;
-			sourceTree = "<group>";
-		};
 		995EB98ED571F4B3BE9171F6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +79,6 @@
 			children = (
 				75113C3A276BFFE900B248AF /* .gitignore */,
 				41EFBBBC2757193D005726CD /* README.md */,
-				75113C33276AEDD100B248AF /* static */,
 				C303870C2637BAA5008ED43A /* Reading List App */,
 				C303870B2637BAA5008ED43A /* Products */,
 				995EB98ED571F4B3BE9171F6 /* Pods */,
@@ -222,10 +205,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				75113C39276BFFA200B248AF /* genre_page.png in Resources */,
 				75113C3B276BFFE900B248AF /* .gitignore in Resources */,
-				75113C37276AEF3000B248AF /* app_details.png in Resources */,
-				75113C35276AEE8200B248AF /* app_home.png in Resources */,
 				C30387152637BAA5008ED43A /* Preview Assets.xcassets in Resources */,
 				C30387122637BAA5008ED43A /* Assets.xcassets in Resources */,
 				4126E79D2766E2FE003B18FD /* GoogleService-Info.plist in Resources */,

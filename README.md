@@ -42,13 +42,13 @@ months. They come out with new content weekly, provide Teaching Assistants (TAs)
 active community. 
 
 On the home page, you can see all of the genres as well as the books that belong to each of the genres. 
-![App home view](static/app_home.png)
+![App home view](img/app_home.png)
 
 Here you can update features for the book, or delete the book itself. All changes will get saved to the database:
-![App details screen](static/app_details.png)
+![App details screen](img/app_details.png)
 
 On the second main tab, the genre page, you can add new genres:
-![Genre page](static/genre_page.png)
+![Genre page](img/genre_page.png)
 
 
 # Database Articles
